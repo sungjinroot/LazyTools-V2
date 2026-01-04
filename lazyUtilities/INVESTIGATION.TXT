@@ -1,0 +1,41 @@
+CTRL + R:
+
+msconfig  (tools):
+
+1. About Windows
+2. Change UAC settings
+3. Windows Troubleshooting
+4. Computer Management
+5. System Information
+6. Event Viewer
+7. Programs
+8. System Properties
+9. Internet Options
+10. Internet Protocol Configurations
+11. Performance Monitor
+12. Resource Monitor
+13. Task Manager
+14. CMD
+15. Registry Editor 
+
+-------------------------------------------------------
+
+CTRL + R
+
+lusrmgr.msc - LOCAL USER AND GROUP MANAGEMENT
+
+
+-------------------------------------------------------
+
+
+CTRL + R
+
+WF.msc - WINDOWS DEFENDER FIREWALL
+
+-------------------------------------------------------
+
+WHERE TO FIND HASHES
+
+reg.exe save hklm\sam SAM
+reg.exe save hklm\system SYSTEM
+reg.exe save hklm\security SECURITY

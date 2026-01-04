@@ -1,0 +1,15 @@
+PYTHON LIBRARY HIJACKING
+
+example:
+
+random.py
+
+import random
+
+print(random.random())
+
+
+
+if a another random.py exists in the same directory, then it can lead to privilege escalation
+
+-----------------------------------------------------------------------------------------------
