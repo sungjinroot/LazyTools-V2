@@ -1,6 +1,6 @@
 #!/bin/sh
 
-WORDLIST="/usr/share/wordlists/rockyou.txt"
+WORDLIST="/usr/share/seclists/Passwords/Leaked-Databases/rockyou.txt"
 
 echo "ENTER IP: "
 

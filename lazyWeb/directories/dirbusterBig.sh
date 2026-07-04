@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COMMON="/usr/share/wordlists/dirb/common.txt"
+COMMON="/usr/share/seclists/Discovery/Web-Content/common.txt"
 
 DIR="/usr/share/seclists/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-big.txt"
 RAFT="/usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt"

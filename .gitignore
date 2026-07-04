@@ -1,0 +1,3 @@
+# Ignore Hydra restore files
+*.restore
+hydra.restore
