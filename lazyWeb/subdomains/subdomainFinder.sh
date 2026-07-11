@@ -6,4 +6,18 @@ echo "Enter domain (FUZZ.domain.com): "
 
 read TARGET
 
-sudo ffuf -u "$TARGET" -w $DOMAINS -t 50
+echo "Any filters? yes | no"
+
+read OPTION
+
+if [ $OPTION == 'yes' ] 
+then
+    echo "Enter your desired filter: (-fc, etc...)"
+
+    read FILTER
+
+    sudo ffuf -u "$TARGET" -w $DOMAINS -t 50 $FILTER
+else
+
+    sudo ffuf -u "$TARGET" -w $DOMAINS -t 50
+fi
